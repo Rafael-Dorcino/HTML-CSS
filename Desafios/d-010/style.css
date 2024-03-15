@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+@font-face{
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #83E1AD;
+    margin: auto;
+}
+
+header{
+    background-image: linear-gradient(180deg, #3DDC84, #063D1E);
+    height: 175px;
+    color: white;
+    padding: 10px;
+    margin: auto;
+}
+
+.centro {
+    text-align: center;
+}
+
+nav{
+
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+}
+
+nav > a:hover{
+    background-color: rgba(255, 255, 255, 0.315);
+    width: 20px;
+    height: 10px;
+    font-size: 19px;
+   
+}
+
+main {
+    background-color: white;
+    margin: 80px;
+    padding: 20px;
+    text-align: justify;
+}
+
+aside {
+    background-color: #c5ebd6;
+    height: px;
+    padding: 0 8px 9px 8px;
+    margin: 9px 15px;
+}
+
+.complemento {
+    background-color: #2fa866;
+    padding: 10px;
+}
+
+footer {
+    background-color: #063D1E;
+    color: white;
+    text-align: center;
+    
+    padding: 1px;
+    margin: 0px;
+}

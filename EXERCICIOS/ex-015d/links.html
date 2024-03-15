@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            color: rgb(255, 123, 0);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* a:visited {
+            color: rgb(156, 76, 0);
+        }*/
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: dodgerblue;
+        }
+
+        .especial::before {
+            content: '> ';
+            text-decoration: none;
+            font-weight: normal;
+            
+        }
+
+        .especial::after{
+            content: ' <';
+            text-decoration: none;
+            font-weight: normal;
+           
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Personalisando Links</h1>
+    <ul>
+        <li><a href="https://discord.gg/UJ2NbCnW">Discord do Ludere Simul</a></li>
+
+        <li><a href="https://www.youtube.com/channel/UCEBxzVotP1OS0G-bLlPVqeA" class="especial">Canal Ludere Simul</a></li>
+
+        <li><a href="https://youtu.be/FH5F4U07WZA">Video Privado do Ludere Simul</a></li>
+    </ul>
+
+</body>
+</html>

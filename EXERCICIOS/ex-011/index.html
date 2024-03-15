@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5
+    </title>
+</head>
+<body>
+    <h1>Imagem dinámicas</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmentr aumente e diminua o tamanho do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+
+        <img src="imagens/foto-g.png" alt="Imagem flexível">
+    </picture>
+     
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <ul type="circle">
+        <li>
+            <audio preload="metadata" controls>
+                <source src="midia/Girl On Top - Amy Lynn & the Honeymen.mp3" type="audio/mpeg">
+                <source src="midia/Hotlanta - Track Tribe.mp3" type="audio/mpeg">
+                <source src="midia/WhatsApp Audio 2023-12-31 at 21.56.55.ogg" type="audio/ogg">
+                <p>Infelizmente o seu navegador navegador não conseguiu carregar os áudios <a href="midia/Hotlanta - Track Tribe.mp3">clique aqui</a> para baixar.</p>
+            </audio>
+        </li>
+        <li>
+            <audio preload="metadata" controls>
+                <source src="midia/Hotlanta - Track Tribe.mp3" type="audio/mpeg">
+            </audio>
+        </li>
+        <li>
+            <audio preload="metadata" controls loop>
+                <source src="midia/WhatsApp Audio 2023-12-31 at 21.56.55.ogg" type="audio/ogg">
+            </audio>
+        </li>
+    </ul>
+
+    <p>Infelizmente o seu navegador navegador não conseguiu carregar os áudios <a href="midia/6 Shots - NEFFEX.mp3">clique aqui</a> para baixar.</p>
+</body>
+</html>
