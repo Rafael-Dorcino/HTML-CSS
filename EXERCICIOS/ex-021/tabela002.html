@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+
+        thead, tfoot {
+            background-color:#383838;
+            color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: #383838;
+        }
+
+        tbody > tr:nth-last-child(even) {
+            background-color: lightgray;
+        }
+
+        td.num {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <!--
+        ANATOMIA PARA TABELAS GRANDES 
+
+        TABLE
+            CAPTION
+            THAED
+                TR, TD, TH
+            TBODY
+                TR, TD, TH
+            TFOOT
+                TR, TD, TH
+
+    -->
+
+    <table>
+        <caption>População das Unidades Fedeativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 100px;">População</th>
+            </tr>
+        </thead>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais </td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14 873 064</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num">11 433 957</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11 377 239</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num">9 557 071</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="num">9 132 078</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td class="num">8 602 865</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="num">7 164 788</td>
+            </tr>
+            <tr>
+                <td>Maranhão</td>
+                <td class="num">7 075 181</td>
+            </tr>
+            <tr>
+                <td>Goiás</td>
+                <td class="num">7 018 354</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td class="num">4 144 597</td>
+            </tr>
+        <tbody>
+
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th scope="row">Total de Habitandes</th>
+                <td class="num"><strong>110 659 804</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ipsum voluptate perferendis voluptatibus culpa? Explicabo illo tenetur, voluptate perferendis atque delectus cumque autem doloribus id vitae non quisquam ea natus.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas dicta rerum eius culpa consequuntur. Labore, nisi temporibus dicta repudiandae amet nobis doloribus veniam ducimus similique? Iusto dignissimos maiores illum porro.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat ea quia iure, magnam laborum, autem obcaecati dolore quos ullam nemo maiores alias error suscipit odit quod eligendi eos, excepturi incidunt.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat inventore nam sunt enim placeat error reprehenderit quasi, nemo asperiores optio. Provident nisi, accusamus debitis eius iusto voluptate soluta numquam eaque?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id perferendis sed facere harum! At aperiam natus officia libero esse asperiores suscipit, illo maiores amet? Commodi numquam ipsum libero voluptateslo
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto illum veritatis amet delectus consectetur fuga, vero, voluptate, omnis tempore perferendis quae obcaecati quas non tempora ducimus eius nobis aliquid. 
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ipsum voluptate perferendis voluptatibus culpa? Explicabo illo tenetur, voluptate perferendis atque delectus cumque autem doloribus id vitae non quisquam ea natus.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas dicta rerum eius culpa consequuntur. Labore, nisi temporibus dicta repudiandae amet nobis doloribus veniam ducimus similique? Iusto dignissimos maiores illum porro.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat ea quia iure, magnam laborum, autem obcaecati dolore quos ullam nemo maiores alias error suscipit odit quod eligendi eos, excepturi incidunt.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat inventore nam sunt enim placeat error reprehenderit quasi, nemo asperiores optio. Provident nisi, accusamus debitis eius iusto voluptate soluta numquam eaque?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id perferendis sed facere harum! At aperiam natus officia libero esse asperiores suscipit, illo maiores amet? Commodi numquam ipsum libero voluptateslo
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto illum veritatis amet delectus consectetur fuga, vero, voluptate, omnis tempore perferendis quae obcaecati quas non tempora ducimus eius nobis aliquid. 
+    </p>
+</body>
+</html>
