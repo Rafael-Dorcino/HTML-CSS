@@ -26,17 +26,17 @@ header {
 }
 
 h1 {
-    border: 1px dotted black;
+    /*border: 1px dotted black;*/
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.486);
     flex: 0 0 200px;
 }
 
 nav {
-    border: 1px dotted black;
+    /*border: 1px dotted black;*/
 
     display: flex;
     flex-flow: row wrap;
-    justify-content: flex-end;
+    align-items: flex-end;
 }
 
 header > nav > a {
